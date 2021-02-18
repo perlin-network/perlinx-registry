@@ -71,4 +71,9 @@ contract Registry {
     function delistPool(address pool) public onlyAdmin {
         poolIsListed[pool] = false;
     }
+
+    function poolCount() public view returns (uint256) {
+        return arrayPerlinPools.length;
+    }
+
 }
