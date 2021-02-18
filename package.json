@@ -1,0 +1,10 @@
+{
+  "name": "perlinx-registry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/perlin-network/perlinx-registry",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.2"
+  }
+}
